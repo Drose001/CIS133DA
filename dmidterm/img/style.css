@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(90deg, rgb(41, 7, 234), rgb(6, 204, 168));
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: linear-gradient(90deg, rgb(41, 7, 234), rgb(6, 204, 168));;
+    color: #f9e107;
+    padding: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+nav li a {
+    color: #f9e107; 
+    text-decoration: none; 
+}
+nav li a:hover {
+    text-decoration: solid; 
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+li img {
+    width: 50px; 
+    margin-right: 10px;
+}
+.image-container img {
+    width: 150px; 
+    display: block;
+    margin: 20px auto; 
+}
+main {
+    padding: 20px;
+}
+.contact-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.contact-box h2 {
+    text-align: center;
+    color: #333;
+}
+.contact-box form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.contact-box label {
+    font-weight: bold;
+}
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.contact-box button {
+    grid-column: 1 / span 2;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+}
+footer {
+    background: linear-gradient(90deg, rgb(41, 7, 234), rgb(6, 204, 168));
+    color: #f9e107;
+    padding: 10px;
+}
