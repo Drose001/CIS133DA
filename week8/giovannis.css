@@ -1,5 +1,5 @@
 body {
-    margin: 0px;
+    margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 100vh;
 }
@@ -11,23 +11,25 @@ header, aside, main, footer {
 
 header {
     color: white;
-    background-color: rgb(33,87,51);
+    background-color: rgb(33, 87, 51);
 }
 
 aside {
-    background-color: rgb(75,133,94);
+    background-color: rgb(75, 133, 94);
 }
 
 main {
+    background-color: #fff; 
+    padding: 20px; 
 }
 
 footer {
     color: white;
-    background-color: rgb(53,112,72);
+    background-color: rgb(53, 112, 72);
 }
 
 h1 {
-    color: rgb(33,87,51);
+    color: rgb(33, 87, 51);
 }
 
 p {
@@ -35,7 +37,7 @@ p {
 }
 
 .restName {
-    background-color: rgb(33,87,51);
+    background-color: rgb(33, 87, 51);
     color: white;
     font-style: italic;
     padding: 5px;
