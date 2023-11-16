@@ -1,0 +1,26 @@
+.hosting-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .hosting-table th, .hosting-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .hosting-table th {
+    background: (to right, purple, red, yellow);
+  }
+      .hosting-table tr:nth-child(odd) {
+    background: linear-gradient(to right, purple, red, yellow);
+  }
+  
+  .hosting-table tr:nth-child(even) {
+    background: linear-gradient(to right, purple, red, yellow)  
+  }
+  
+  .hosting-table img {
+      width: 70px; 
+      height: auto; 
+    }
