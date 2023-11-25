@@ -6,10 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="amigos.css">
     <title>Your Ticket to Animal Amigos</title>
+    <script>
+        function cancelTicket() {
+            window.close();
+        }
+        function printTicket() {
+            const amigoName = prompt("Please provide amigo's name:");
+            const visitDate = prompt("Please provide the visit date (MM/DD/YYYY):");
+            if (amigoName && visitDate) {
+                document.title = `${amigoName}'s Ticket to Animal Amigos`;
+                document.getElementById('ownerName').textContent = amigoName;
+                document.getElementById('visitDate').textContent = visitDate;
+            } else {
+                alert("Please provide both amigo's name and visit date.");
+            }
+        }
+    </script>
 </head>
-
 <body>
-
     <div id="aa_logo">
         <img src="./images/animal_amigos_shelter.PNG" style="width:300px;" alt="Animals in Sombreros" />
     </div>
@@ -40,7 +54,7 @@
                 </td>
             </tr>
             <tr>
-                <td colspan="2" style="text-align:right;"">
+                <td colspan="2" style="text-align:right;">
                     <input type="button" value="Cancel" onclick="cancelTicket()" />
                     <input type="button" value="Print Ticket" onclick="printTicket()" />
                 </td>
