@@ -1,0 +1,19 @@
+class dog:
+    def __init__(self, legs, birthday, color, height, weight, pet_type):
+        self.legs = legs
+        self.birthday = birthday
+        self.color = color
+        self.height = height
+        self.weight = weight
+        self.pet_type = pet_type
+    
+    #Methods
+    def runnung(fast):
+
+    def speak(bark):
+
+    def playing(chasing ball)
+
+
+
+
